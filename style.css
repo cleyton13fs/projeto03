@@ -1,0 +1,272 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Inter", sans-serif;
+}
+
+
+body{
+    background-color: #171717;
+    width: 1440px;
+    height: 3974px;
+    margin:0 auto;
+}
+
+nav{
+    display: flex;
+    color: #FAFAF9;
+    font-style: normal;
+    font-size: 12px;
+    font-family: Inter;
+    font-weight: 400;
+    line-height: normal;
+    word-wrap: break-word;
+    justify-content: space-between;
+    padding: 49px 64px;   
+}
+
+li{
+    font-weight: 300;
+    margin:10px;
+}
+
+
+.logo{
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    -webkit-text-stroke-width: 1;
+    -webkit-text-stroke-color: #000;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: normal;
+    
+}
+
+
+header a{
+    color: #FAFAF9;
+    text-decoration: none;
+    font-size: 12px;
+}
+
+header nav ul{
+    list-style-type: none;
+}
+
+header nav ul li{
+    display: inline-block;
+    padding: 0 10px;
+}
+
+#titulo-site{
+    color:#FAFAF9;
+    font-family: inter, sans-serif;
+    font-size: 172px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 170px; /* 98.837% */
+    letter-spacing: -2px;
+    text-transform: uppercase;
+    margin-bottom: 46px;
+}
+
+p{
+    color:rgba(239, 237, 232, 0.65);
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px; 
+    letter-spacing: 0.5px;
+    margin-bottom: 46px;
+}
+
+#featured{
+    color: var(--Text-2, rgba(239, 237, 232, 0.65));
+    font-family: Inter;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 22px; /* 157.143% */
+    letter-spacing: 1px;
+}
+
+#marcas{
+    width: 600px;
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+}
+
+#homem{
+    height: 684px;
+    margin-top: 200px;
+    position: absolute;
+    left: 50%;
+}
+
+
+.text-topo{
+    margin: 100px;
+}
+
+.text-topo p{
+    margin: 20px;
+    max-width: 600px;
+}
+
+#btn-um{
+    border: 0;
+    background-color: #E6533C;
+    color: #FFF;
+    border-radius: 10px;
+    width: 210px;
+    height: 70px;
+    font-family: Poppins;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 22px;
+    letter-spacing: 1px;
+    margin: 20px;
+    border-style: none;
+    margin-bottom: 112px;
+}
+
+a{
+    color: #ffffff;
+  text-decoration: none;
+}
+
+section{
+    display: flex;
+}
+
+.interface{
+    width: 1255px;
+    height: 741px;
+    flex-shrink: 0;
+}
+
+main{
+    max-width: 1255;
+    margin: 0 auto;
+}
+
+.topo-do-site{
+    max-width: 1255px;
+    height: 741px;
+    align-items: center;
+    justify-content: center;
+    margin-top: 200px;
+    margin-bottom: 200px;
+    
+}
+
+#parte-dois{
+    margin-bottom: 188px;
+}
+
+h2{
+    font-size: 16px;
+} 
+
+h3{
+    font-size: 14px;
+    font-weight: 100;
+}
+.seta{
+    display: flex;
+    align-items: center;
+
+}
+.seta img{
+    margin-left: 10px;
+    height: 24.22px;
+}
+
+#textos{
+        color: white;
+        size: 40px;
+        margin-bottom: 38px;
+        max-width: 480px;
+}
+
+#lista{
+        display: flex;
+        list-style: none;
+}
+
+.grupo{
+    flex-direction: column;
+}
+
+#parte-tres{
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 100px;
+}
+
+#paragrafo{
+    width: 480px;
+}
+
+.dois{
+    background-color: #323443;
+    border-radius: 12px;
+    color: white;
+    padding: 30px;
+    max-width: 230px;
+}
+
+
+#mulher1{
+    width: 640px;
+}
+
+#parte-quatro{
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 193px;
+}
+
+#mulher2{
+    width: 560px;
+}
+
+#see{
+    text-decoration: none;
+    color: #0070C9;
+}
+
+#parte-cinco{
+    flex-direction: column;
+}
+
+#line{
+    background-color: #707070;
+    height: 1px;
+    width: 100%;
+}
+
+#opção{
+    display: flex;
+    list-style: none;
+    justify-content: space-around;
+
+}
+
+.planos{
+    background-color: #232532;
+    color: white;
+    padding: 30px;
+    max-width: 400px;
+
+}
+
+#final{
+    background-color: #0070C9;
+    color: white;
+    border-style: none;
+    padding: 10px;
+    border-radius: 10px;
+}
